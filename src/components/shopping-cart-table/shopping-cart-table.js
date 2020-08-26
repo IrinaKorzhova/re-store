@@ -69,13 +69,13 @@ const mapStateToProps = ({cartItems, orderTotal}) => {
 const mapDispatchToProps = () => {
     return {
         onIncrease: (id) => {
-            console.log('Increase ${id}');
+            console.log(`Increase ${id}`);
         },
         onDecrease: (id) => {
-            console.log('Decrease ${id}');
+            console.log(`Decrease ${id}`);
         },
         onDelete: (id) => {
-            console.log('Delete ${id}');
+            console.log(`Delete ${id}`);
         }
     }
 };
